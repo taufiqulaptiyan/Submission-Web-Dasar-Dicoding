@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Daftar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/daftar.css">
+</head>
+
+<body>
+  <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+        <h2>DAFTAR</h2>
+        <div class="garis"></div>
+      </div>
+
+      <form method="POST" class="form">
+        <label for="email" style="padding-top:13px">
+            &nbsp;E-mail
+          </label>
+        <input id="email" class="form-content" type="email" name="email" autocomplete="on" required />
+        <div class="form-border"></div>
+        <label for="name" style="padding-top:13px">
+            &nbsp;Username
+          </label>
+        <input id="name" class="form-content" type="text" name="name" autocomplete="on" required />
+        <div class="form-border"></div>
+        <label for="user-password" style="padding-top:22px">&nbsp;Password
+          </label>
+        <input id="password" class="form-content" type="password" name="password" required />
+        <div class="form-border"></div>
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+        <a href="login.html" id="signup">Sudah punya akun ? Login sekarang</a>
+        <a href="index.html" id="back">Back To Home</a>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
+
